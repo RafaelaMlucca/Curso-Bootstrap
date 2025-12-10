@@ -1,0 +1,37 @@
+/* Título */
+.titulo {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #444;
+}
+
+/* Colunas */
+.coluna {
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  transition: transform .2s ease, box-shadow .2s ease;
+  cursor: pointer;
+}
+
+/* Ímpares */
+.impar {
+  background: linear-gradient(135deg, #2c3e50, #4b6584);
+}
+
+/* Pares */
+.par {
+  background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+}
+
+/* Hover */
+.coluna:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
